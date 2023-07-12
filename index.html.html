@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Ef Brinds</title>
+
     <!--Css-->
+
     <link rel="stylesheet" href="css/style.css" />
+
     <!--Google fonts-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,6 +17,15 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
+    />
+    <!--Font awesome-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
 
     <!--Bootstrap-->
@@ -25,11 +37,68 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body id="body">
-    <section class="container-fluid">
+    <header id="header" class="row m-0">
+      <div id="logo" class="col">
+        <img
+          id="logo"
+          class="img-fluid my-1 mx-2"
+          src="img/efbrinds-logo.jpeg"
+          alt="Logo"
+        />
+      </div>
+      <div class="col input-group-sm text-end">
+        <input
+          class="form-control my-2"
+          type="search"
+          placeholder="Pesquisar"
+          aria-label="Search"
+        />
+      </div>
+      <div class="col p-0">
+        <button
+          class="btn btn-sm btn-outline-light text-dark my-2"
+          type="submit"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <nav class="col-1 text-end">
+        <button
+          class="btn btn-sm btn-light p-1 px-2 mt-2"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">EF Brind's</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">...</div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container">
       <div class="container">
-        <h1 class="text-center mt-5 text-light">Ef Brinds</h1>
-        <p class="text-start p-4">
+        <h1 id="titulo" class="text-center mt-5">Ef Brind's</h1>
+        <p id="texto" class="p-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea minima,
           expedita, asperiores voluptatum labore nesciunt nobis reiciendis non,
           quam sequi excepturi libero sed itaque tenetur? Minima tempore tempora

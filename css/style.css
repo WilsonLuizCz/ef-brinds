@@ -5,7 +5,6 @@
 }
 
 :root {
-
   --cor0: #ffffff;
   --cor1: #cc2e00;
   --cor2: #e9e9e9;
@@ -16,8 +15,25 @@
   --fonte-texto: "Poppins", sans-serif;
   --fonte-titulo: "Cookie", cursive, sans-serif;
 }
-#body{
-  background-color: #cc2e00;
+#body {
+  background-color: var(--cor1);
   color: #000;
   font-family: var(--fonte-texto);
+}
+#header {
+  background-color: var(--cor0);
+}
+#logo {
+  width: 40px;
+  border-radius: 50%;
+}
+#titulo {
+  font-family: var(--fonte-titulo);
+  font-size: 3rem;
+  color: var(--cor5);
+  text-shadow: 1px 1px 1px #ffffff;
+}
+#texto {
+  font-family: var(--fonte-texto);
+  font-size: medium;
 }
