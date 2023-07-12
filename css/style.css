@@ -16,8 +16,8 @@
   --fonte-titulo: "Cookie", cursive, sans-serif;
 }
 #body {
-  background-color: var(--cor2);
-  color: #000;
+  background-color:var(--cor2);
+  color:var(--cor4);
   font-family: var(--fonte-texto);
 }
 #header {
@@ -31,8 +31,14 @@
   font-family: var(--fonte-titulo);
   font-size: 3rem;
   color: var(--cor5);
-  text-shadow: 1px 1px 1px #cc2e00;
+  text-shadow: 1px 1px 1px #ffffff;
 }
+#titulo2 {
+  font-family: var(--fonte-titulo);
+  font-size: 2rem;
+  color: var(--cor5);
+  text-shadow: 1px 1px 1px #ffffff;}
+
 #texto {
   font-family: var(--fonte-texto);
   font-size: medium;
@@ -64,4 +70,13 @@
   text-decoration: none;
   color: var(--cor1);
   font-family: var(--fonte-texto);
+  font-size: large;
+}
+#produtos{
+  background-color: var(--cor2);
+  color: var(--cor4);
+}
+#sobre{
+  background-color: var(--cor1);
+  color: var(--cor0);
 }
