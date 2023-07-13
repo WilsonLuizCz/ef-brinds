@@ -42,11 +42,17 @@
   color: var(--cor5);
   text-shadow: 1px 1px 1px #ffffff;
 }
-
+#titulo3 {
+  font-family: var(--fonte-texto);
+  font-size: 1.4rem;
+  color: var(--cor1);
+  
+}
 #texto {
   font-family: var(--fonte-texto);
   font-size: medium;
 }
+
 #submenu {
   background-color: var(--cor1);
   color: var(--cor0);
@@ -83,4 +89,17 @@
 #sobre {
   background-color: var(--cor1);
   color: var(--cor0);
+}
+#btn{
+  background-color: var(--cor1);
+  color: var(--cor0);
+  border: none;
+}
+#btn:hover{
+background-color: var(--cor5);
+color: var(--cor0);
+}
+#card {
+  background-color: var(--cor0);
+  
 }
