@@ -22,7 +22,9 @@
 }
 #headerr {
   background-color: var(--cor0);
-  
+  position: fixed;
+  z-index: 100;
+  width: 100%;
 }
 #logo {
   width: 50px;
