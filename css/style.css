@@ -20,7 +20,7 @@
   color: var(--cor4);
   font-family: var(--fonte-texto);
 }
-#header {
+#headerr {
   background-color: var(--cor0);
   position: fixed;
   z-index: 100;
