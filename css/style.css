@@ -30,6 +30,11 @@
   width: 50px;
   border-radius: 50%;
 }
+#logo2 {
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
 #titulo {
   font-family: var(--fonte-titulo);
   font-size: 3rem;
@@ -46,7 +51,6 @@
   font-family: var(--fonte-texto);
   font-size: 1.4rem;
   color: var(--cor1);
-  
 }
 #texto {
   font-family: var(--fonte-texto);
@@ -90,16 +94,42 @@
   background-color: var(--cor1);
   color: var(--cor0);
 }
-#btn{
+#btn {
   background-color: var(--cor1);
   color: var(--cor0);
   border: none;
 }
-#btn:hover{
-background-color: var(--cor5);
-color: var(--cor0);
+#btn:hover {
+  background-color: #075879;
+  color: var(--cor0);
 }
 #card {
   background-color: var(--cor0);
-  
+}
+#news {
+  background-color: var(--cor5);
+}
+#titulo4 {
+  color: var(--cor1);
+  font-family: var(--fonte-titulo);
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+b {
+  color: #ff3c00;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#footer {
+  background-color: #000;
+  color: #ffffff;
+  font-family: var(--fonte-texto);
+}
+#footer2 {
+  background-color: var(--cor0);
+  color: var(--cor1);
+  font-family: var(--fonte-texto);
+  font-weight: 600;
+  font-size: small;
 }

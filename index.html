@@ -358,7 +358,13 @@
     <!--Sobre nos-->
     <section id="sobre" class="container-fluid py-5">
       <div class="container">
-        <h1 id="titulo" class="text-center">Sobre nós</h1>
+        <h1 id="titulo" class="text-center mb-5">Sobre nós</h1>
+        <div class="text-center">
+          <img id="logo2" src="img/efbrinds-logo.jpeg" alt="img-fluid" />
+        </div>
+        <div class="text-center">
+          <h4 id="titulo2" class="mt-3">Ef Brind's</h4>
+        </div>
         <p id="texto" class="p-4">
           Somos da cidade de Suzano - SP estampamos a mais de três anos sempre
           procuramos se atualizar no ramo, estampamos pela técnica Silk,
@@ -371,6 +377,81 @@
         </p>
       </div>
     </section>
+
+    <!--News letter-->
+    <section id="news" class="container-fluid py-5">
+      <div class="container">
+        <h1 id="titulo4" class="text-center">News letter</h1>
+        <p id="texto" class="p-4 text-start text-light">
+          Deixe seu nome e email e fique por dentro de todas as nossas
+          <b>novidades</b> e <b>ofertas</b> !
+        </p>
+      </div>
+
+      <!--Form-->
+      <div id="form" class="container">
+        <form
+          action="https://formsubmit.co/wilson.luiz583@gmail.com"
+          method="POST"
+        >
+          <label for="name" class="form-label text-light"><b>Nome :</b></label>
+          <input
+            class="form-control"
+            id="name"
+            aria-describedby="nameHelp"
+            type="text"
+            name="name"
+            required
+          />
+          <br />
+
+          <label for="email" class="form-label text-light"
+            ><b>Email :</b></label
+          >
+          <input
+            class="form-control"
+            id="email"
+            aria-describedby="emailHelp"
+            type="email"
+            name="email"
+            required
+          />
+          <br />
+          <button id="btn" class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="text-center">
+      <div id="footer" class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <h2 id="titulo" class="my-4">Ef Brind's</h2>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <p class="mt-3">Endereço :</p>
+            <p>Telefone :</p>
+            <p>Email :</p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <p class="mt-4">Redes Sociais</p>
+            <p>
+              <a href=""><i id="i" class="fa-brands fa-facebook me-3"></i></a>
+              <a href=""><i id="i" class="fa-brands fa-instagram me-3"></i></a>
+              <a href=""><i id="i" class="fa-brands fa-whatsapp"></i></a>
+            </p>
+          </div>
+          <div
+            id="footer2"
+            class="col-sm12 col-md-12 col-lg12 text-center py-1"
+          >
+            <spam>Julho de 2023 &copy; Wilson Czelusniaki 2023</spam>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!--Bootstrap JS-->
 
